@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!--app:showAsAction="ifRoom"-->
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never"/>
+        <!--android:onClick="openSettings">-->
+    <item android:id="@+id/action_speech"
+
+
+        android:title="Speech"/>
+    <item android:id="@+id/action_call"
+
+
+        android:title="Call"/>
+    <item android:id="@+id/action_done"
+
+
+        android:title="Done"/>
+    <item android:id="@+id/action_contacts"
+
+        android:title="Contacts"/>
+    <item android:id="@+id/action_status"
+
+        android:title="Status" />
+
+
+    <!--android:showAsAction="ifRoom"-->
+</menu>
